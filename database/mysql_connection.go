@@ -30,9 +30,12 @@ func ConnectGiftDB(confDir, confFile, fileType, logDir string) {
 	DataSourceName := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8mb4&parseTime=True&loc=Local", user, pass, host, port, dbname)
 
 	//日志控制
-	logFile, _ := os.OpenFile(path.Join(logDir, logFileName), os.O_CREATE|os.O_APPEND|os.O_WRONLY, os.ModePerm)
+	logFile, err := os.OpenFile(path.Join(logDir, logFileName), os.O_CREATE|os.O_APPEND|os.O_WRONLY, os.ModePerm)
+	if err != nil {
+		panic(fmt.Errorf("打开数据库日志文件出错: %s", err))
+	}
 	newLogger := logger.New(
-		log.New(logFile, "\r\n", log.LstdFlags), // io writer，可以输出到文件，也可以输出到os.Stdout
+		log.New(logFile, "\r\n", log.LstdFlags), //  文件——间隔——时间格式前缀           ||io writer，可以输出到文件，也可以输出到os.Stdout
 		logger.Config{
 			SlowThreshold:             100 * time.Millisecond, //耗时超过此值认定为慢查询
 			LogLevel:                  logger.Info,            // LogLevel的最低阈值，Silent为不输出日志
