@@ -1,11 +1,12 @@
 package database
 
 import (
+	"context"
 	"log/slog"
 
 	"github.com/Aurora-bc/aurora-seckill/util"
 
-	"github.com/go-redis/redis"
+	"github.com/redis/go-redis/v9"
 )
 
 var (
@@ -20,7 +21,7 @@ func ConnectGiftRedis(confDir, confFile, fileType string) {
 		Password: viper.GetString("pass"),
 		DB:       viper.GetInt("db"),
 	})
-	if err := GiftRedis.Ping().Err(); err != nil {
+	if err := GiftRedis.Ping(context.Background()).Err(); err != nil {
 		slog.Error("connect to redis failed", "error", err)
 	} else {
 		slog.Info("connect to redis")

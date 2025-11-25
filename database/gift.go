@@ -30,7 +30,7 @@ func GetAllGifts() []*Gift {
 
 func GetGift(id int) *Gift {
 	gift := Gift{Id: id}
-	err := GiftDB.Select("*").Find(&gift).Error
+	err := GiftDB.Select("*").Where("id = ?", id).Find(&gift).Error
 	if err != nil {
 		slog.Error("get gift by id failed", "error", err, "gid", id)
 		return nil
