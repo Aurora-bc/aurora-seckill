@@ -9,7 +9,7 @@ import (
 
 	"github.com/Aurora-bc/aurora-seckill/database"
 
-	rmq_client "github.com/apache/rocketmq-clients/golang/v5" //注意：现在是v5
+	rmq_client "github.com/apache/rocketmq-clients/golang/v5" //现在是v5
 	"github.com/apache/rocketmq-clients/golang/v5/credentials"
 	"github.com/bytedance/sonic"
 )
