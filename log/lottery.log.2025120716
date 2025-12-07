@@ -1,0 +1,7 @@
+time="2025-12-07 16:36:46.228" level=INFO source=E:/repository/aurora-seckill/database/redis_connection.go:27 msg="connect to redis"
+time="2025-12-07 16:38:20.656" level=INFO source=E:/repository/aurora-seckill/database/redis_connection.go:27 msg="connect to redis"
+time="2025-12-07 16:38:25.665" level=INFO msg="failed to get topic route data result from remote during client startup, clientId=Aurora@138896@0@hdoa8a4n96, topics=[CANCEL_ORDER], err=create grpc conn failed, err=context deadline exceeded"
+time="2025-12-07 16:40:18.747" level=INFO source=E:/repository/aurora-seckill/database/redis_connection.go:27 msg="connect to redis"
+time="2025-12-07 16:40:23.756" level=INFO msg="failed to get topic route data result from remote during client startup, clientId=Aurora@110492@0@hdoaa8fref, topics=[CANCEL_ORDER], err=create grpc conn failed, err=context deadline exceeded"
+time="2025-12-07 16:44:13.990" level=INFO source=E:/repository/aurora-seckill/database/redis_connection.go:27 msg="connect to redis"
+time="2025-12-07 16:44:18.999" level=INFO msg="failed to get topic route data result from remote during client startup, clientId=Aurora@139120@0@hdoae4htrl, topics=[CANCEL_ORDER], err=create grpc conn failed, err=context deadline exceeded"

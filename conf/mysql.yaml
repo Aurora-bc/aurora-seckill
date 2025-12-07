@@ -1,6 +1,6 @@
 lottery:
   user: "root"
-  pass: "123456"
+  pass: "12345"
   host: "127.0.0.1"
   port: 3306
   log: "gift-db.log"

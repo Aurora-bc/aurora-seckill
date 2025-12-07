@@ -1,0 +1,96 @@
+
+2025/12/07 16:36:46 E:/repository/aurora-seckill/database/gift.go:24
+[3.126ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 16:38:20 E:/repository/aurora-seckill/database/gift.go:24
+[1.124ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 16:40:18 E:/repository/aurora-seckill/database/gift.go:24
+[0.513ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 16:44:13 E:/repository/aurora-seckill/database/gift.go:24
+[1.248ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 16:45:32 E:/repository/aurora-seckill/database/gift.go:24
+[1.022ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 16:48:00 E:/repository/aurora-seckill/database/gift.go:24
+[1.732ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 16:48:58 E:/repository/aurora-seckill/database/gift.go:24
+[1.022ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 18:45:26 E:/repository/aurora-seckill/database/gift.go:24
+[1.092ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:02:57 E:/repository/aurora-seckill/database/gift.go:24
+[1.079ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:04:04 E:/repository/aurora-seckill/database/gift.go:24
+[0.000ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:04:13 E:/repository/aurora-seckill/database/gift.go:24
+[0.599ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:04:18 E:/repository/aurora-seckill/database/gift.go:24
+[1.647ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:04:19 E:/repository/aurora-seckill/database/gift.go:33
+[7.515ms] [rows:1] SELECT * FROM `inventory` WHERE id = 3 AND `inventory`.`id` = 3
+
+2025/12/07 19:04:41 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 3 AND `inventory`.`id` = 3
+
+2025/12/07 19:04:42 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 2 AND `inventory`.`id` = 2
+
+2025/12/07 19:04:42 E:/repository/aurora-seckill/database/gift.go:33
+[0.514ms] [rows:1] SELECT * FROM `inventory` WHERE id = 1 AND `inventory`.`id` = 1
+
+2025/12/07 19:04:42 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 6 AND `inventory`.`id` = 6
+
+2025/12/07 19:04:42 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 6 AND `inventory`.`id` = 6
+
+2025/12/07 19:06:30 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 7 AND `inventory`.`id` = 7
+
+2025/12/07 19:06:32 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 8 AND `inventory`.`id` = 8
+
+2025/12/07 19:06:39 E:/repository/aurora-seckill/database/gift.go:24
+[0.502ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:06:44 E:/repository/aurora-seckill/database/gift.go:24
+[0.000ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:06:46 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 7 AND `inventory`.`id` = 7
+
+2025/12/07 19:06:49 E:/repository/aurora-seckill/database/gift.go:24
+[0.000ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:06:58 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 8 AND `inventory`.`id` = 8
+
+2025/12/07 19:12:44 E:/repository/aurora-seckill/database/gift.go:24
+[0.795ms] [rows:10] SELECT * FROM `inventory`
+
+2025/12/07 19:12:45 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 10 AND `inventory`.`id` = 10
+
+2025/12/07 19:13:06 E:/repository/aurora-seckill/database/gift.go:33
+[0.000ms] [rows:1] SELECT * FROM `inventory` WHERE id = 7 AND `inventory`.`id` = 7
+
+2025/12/07 19:13:06 E:/repository/aurora-seckill/database/gift.go:33
+[0.513ms] [rows:1] SELECT * FROM `inventory` WHERE id = 4 AND `inventory`.`id` = 4
+
+2025/12/07 19:13:06 E:/repository/aurora-seckill/database/gift.go:33
+[0.544ms] [rows:1] SELECT * FROM `inventory` WHERE id = 9 AND `inventory`.`id` = 9
+
+2025/12/07 19:13:07 E:/repository/aurora-seckill/database/gift.go:33
+[2.768ms] [rows:1] SELECT * FROM `inventory` WHERE id = 7 AND `inventory`.`id` = 7
+
+2025/12/07 19:13:07 E:/repository/aurora-seckill/database/gift.go:33
+[0.566ms] [rows:1] SELECT * FROM `inventory` WHERE id = 3 AND `inventory`.`id` = 3
